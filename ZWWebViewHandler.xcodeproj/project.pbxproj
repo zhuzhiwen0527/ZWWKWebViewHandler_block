@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED47D8D220FDBEB0000518FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED47D8D120FDBEB0000518FB /* AppDelegate.m */; };
+		ED47D8D820FDBEB0000518FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED47D8D620FDBEB0000518FB /* Main.storyboard */; };
+		ED47D8DA20FDBEB2000518FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED47D8D920FDBEB2000518FB /* Assets.xcassets */; };
+		ED47D8DD20FDBEB2000518FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED47D8DB20FDBEB2000518FB /* LaunchScreen.storyboard */; };
+		ED47D8E020FDBEB2000518FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED47D8DF20FDBEB2000518FB /* main.m */; };
+		ED47D8EA20FDBEB2000518FB /* ZWWebViewHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED47D8E920FDBEB2000518FB /* ZWWebViewHandlerTests.m */; };
+		ED47D8F520FDBEB2000518FB /* ZWWebViewHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED47D8F420FDBEB2000518FB /* ZWWebViewHandlerUITests.m */; };
+		ED47D90420FDBEE1000518FB /* ZWEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ED47D90320FDBEE1000518FB /* ZWEventHandler.m */; };
+		ED47D90820FDBFEC000518FB /* ZWEventHandler.js in Resources */ = {isa = PBXBuildFile; fileRef = ED47D90720FDBFEC000518FB /* ZWEventHandler.js */; };
+		ED47D90E20FDC32A000518FB /* ZWWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED47D90D20FDC32A000518FB /* ZWWKWebViewController.m */; };
+		ED47D91020FDC357000518FB /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = ED47D90F20FDC357000518FB /* test.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED47D8E620FDBEB2000518FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED47D8C520FDBEB0000518FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED47D8CC20FDBEB0000518FB;
+			remoteInfo = ZWWebViewHandler;
+		};
+		ED47D8F120FDBEB2000518FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED47D8C520FDBEB0000518FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED47D8CC20FDBEB0000518FB;
+			remoteInfo = ZWWebViewHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED47D8CD20FDBEB0000518FB /* ZWWebViewHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWWebViewHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED47D8D020FDBEB0000518FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED47D8D120FDBEB0000518FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED47D8D720FDBEB0000518FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED47D8D920FDBEB2000518FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED47D8DC20FDBEB2000518FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED47D8DE20FDBEB2000518FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED47D8DF20FDBEB2000518FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED47D8E520FDBEB2000518FB /* ZWWebViewHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWWebViewHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED47D8E920FDBEB2000518FB /* ZWWebViewHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWebViewHandlerTests.m; sourceTree = "<group>"; };
+		ED47D8EB20FDBEB2000518FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED47D8F020FDBEB2000518FB /* ZWWebViewHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWWebViewHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED47D8F420FDBEB2000518FB /* ZWWebViewHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWebViewHandlerUITests.m; sourceTree = "<group>"; };
+		ED47D8F620FDBEB2000518FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED47D90220FDBEE1000518FB /* ZWEventHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWEventHandler.h; sourceTree = "<group>"; };
+		ED47D90320FDBEE1000518FB /* ZWEventHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWEventHandler.m; sourceTree = "<group>"; };
+		ED47D90720FDBFEC000518FB /* ZWEventHandler.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ZWEventHandler.js; sourceTree = "<group>"; };
+		ED47D90C20FDC32A000518FB /* ZWWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWKWebViewController.h; sourceTree = "<group>"; };
+		ED47D90D20FDC32A000518FB /* ZWWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWKWebViewController.m; sourceTree = "<group>"; };
+		ED47D90F20FDC357000518FB /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED47D8CA20FDBEB0000518FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47D8E220FDBEB2000518FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47D8ED20FDBEB2000518FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED47D8C420FDBEB0000518FB = {
+			isa = PBXGroup;
+			children = (
+				ED47D8CF20FDBEB0000518FB /* ZWWebViewHandler */,
+				ED47D8E820FDBEB2000518FB /* ZWWebViewHandlerTests */,
+				ED47D8F320FDBEB2000518FB /* ZWWebViewHandlerUITests */,
+				ED47D8CE20FDBEB0000518FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED47D8CE20FDBEB0000518FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED47D8CD20FDBEB0000518FB /* ZWWebViewHandler.app */,
+				ED47D8E520FDBEB2000518FB /* ZWWebViewHandlerTests.xctest */,
+				ED47D8F020FDBEB2000518FB /* ZWWebViewHandlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED47D8CF20FDBEB0000518FB /* ZWWebViewHandler */ = {
+			isa = PBXGroup;
+			children = (
+				ED47D90F20FDC357000518FB /* test.html */,
+				ED47D90520FDBFAA000518FB /* ZWEventHandler */,
+				ED47D8D020FDBEB0000518FB /* AppDelegate.h */,
+				ED47D8D120FDBEB0000518FB /* AppDelegate.m */,
+				ED47D8D620FDBEB0000518FB /* Main.storyboard */,
+				ED47D8D920FDBEB2000518FB /* Assets.xcassets */,
+				ED47D8DB20FDBEB2000518FB /* LaunchScreen.storyboard */,
+				ED47D8DE20FDBEB2000518FB /* Info.plist */,
+				ED47D8DF20FDBEB2000518FB /* main.m */,
+				ED47D90C20FDC32A000518FB /* ZWWKWebViewController.h */,
+				ED47D90D20FDC32A000518FB /* ZWWKWebViewController.m */,
+			);
+			path = ZWWebViewHandler;
+			sourceTree = "<group>";
+		};
+		ED47D8E820FDBEB2000518FB /* ZWWebViewHandlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED47D8E920FDBEB2000518FB /* ZWWebViewHandlerTests.m */,
+				ED47D8EB20FDBEB2000518FB /* Info.plist */,
+			);
+			path = ZWWebViewHandlerTests;
+			sourceTree = "<group>";
+		};
+		ED47D8F320FDBEB2000518FB /* ZWWebViewHandlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED47D8F420FDBEB2000518FB /* ZWWebViewHandlerUITests.m */,
+				ED47D8F620FDBEB2000518FB /* Info.plist */,
+			);
+			path = ZWWebViewHandlerUITests;
+			sourceTree = "<group>";
+		};
+		ED47D90520FDBFAA000518FB /* ZWEventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				ED47D90620FDBFEC000518FB /* Resources */,
+				ED47D90220FDBEE1000518FB /* ZWEventHandler.h */,
+				ED47D90320FDBEE1000518FB /* ZWEventHandler.m */,
+			);
+			path = ZWEventHandler;
+			sourceTree = "<group>";
+		};
+		ED47D90620FDBFEC000518FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED47D90720FDBFEC000518FB /* ZWEventHandler.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED47D8CC20FDBEB0000518FB /* ZWWebViewHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED47D8F920FDBEB2000518FB /* Build configuration list for PBXNativeTarget "ZWWebViewHandler" */;
+			buildPhases = (
+				ED47D8C920FDBEB0000518FB /* Sources */,
+				ED47D8CA20FDBEB0000518FB /* Frameworks */,
+				ED47D8CB20FDBEB0000518FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWWebViewHandler;
+			productName = ZWWebViewHandler;
+			productReference = ED47D8CD20FDBEB0000518FB /* ZWWebViewHandler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED47D8E420FDBEB2000518FB /* ZWWebViewHandlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED47D8FC20FDBEB2000518FB /* Build configuration list for PBXNativeTarget "ZWWebViewHandlerTests" */;
+			buildPhases = (
+				ED47D8E120FDBEB2000518FB /* Sources */,
+				ED47D8E220FDBEB2000518FB /* Frameworks */,
+				ED47D8E320FDBEB2000518FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED47D8E720FDBEB2000518FB /* PBXTargetDependency */,
+			);
+			name = ZWWebViewHandlerTests;
+			productName = ZWWebViewHandlerTests;
+			productReference = ED47D8E520FDBEB2000518FB /* ZWWebViewHandlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED47D8EF20FDBEB2000518FB /* ZWWebViewHandlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED47D8FF20FDBEB2000518FB /* Build configuration list for PBXNativeTarget "ZWWebViewHandlerUITests" */;
+			buildPhases = (
+				ED47D8EC20FDBEB2000518FB /* Sources */,
+				ED47D8ED20FDBEB2000518FB /* Frameworks */,
+				ED47D8EE20FDBEB2000518FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED47D8F220FDBEB2000518FB /* PBXTargetDependency */,
+			);
+			name = ZWWebViewHandlerUITests;
+			productName = ZWWebViewHandlerUITests;
+			productReference = ED47D8F020FDBEB2000518FB /* ZWWebViewHandlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED47D8C520FDBEB0000518FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = zzw;
+				TargetAttributes = {
+					ED47D8CC20FDBEB0000518FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ED47D8E420FDBEB2000518FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED47D8CC20FDBEB0000518FB;
+					};
+					ED47D8EF20FDBEB2000518FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ED47D8CC20FDBEB0000518FB;
+					};
+				};
+			};
+			buildConfigurationList = ED47D8C820FDBEB0000518FB /* Build configuration list for PBXProject "ZWWebViewHandler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED47D8C420FDBEB0000518FB;
+			productRefGroup = ED47D8CE20FDBEB0000518FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED47D8CC20FDBEB0000518FB /* ZWWebViewHandler */,
+				ED47D8E420FDBEB2000518FB /* ZWWebViewHandlerTests */,
+				ED47D8EF20FDBEB2000518FB /* ZWWebViewHandlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED47D8CB20FDBEB0000518FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED47D8DD20FDBEB2000518FB /* LaunchScreen.storyboard in Resources */,
+				ED47D90820FDBFEC000518FB /* ZWEventHandler.js in Resources */,
+				ED47D8DA20FDBEB2000518FB /* Assets.xcassets in Resources */,
+				ED47D91020FDC357000518FB /* test.html in Resources */,
+				ED47D8D820FDBEB0000518FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47D8E320FDBEB2000518FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47D8EE20FDBEB2000518FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED47D8C920FDBEB0000518FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED47D90420FDBEE1000518FB /* ZWEventHandler.m in Sources */,
+				ED47D8E020FDBEB2000518FB /* main.m in Sources */,
+				ED47D90E20FDC32A000518FB /* ZWWKWebViewController.m in Sources */,
+				ED47D8D220FDBEB0000518FB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47D8E120FDBEB2000518FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED47D8EA20FDBEB2000518FB /* ZWWebViewHandlerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47D8EC20FDBEB2000518FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED47D8F520FDBEB2000518FB /* ZWWebViewHandlerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED47D8E720FDBEB2000518FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED47D8CC20FDBEB0000518FB /* ZWWebViewHandler */;
+			targetProxy = ED47D8E620FDBEB2000518FB /* PBXContainerItemProxy */;
+		};
+		ED47D8F220FDBEB2000518FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED47D8CC20FDBEB0000518FB /* ZWWebViewHandler */;
+			targetProxy = ED47D8F120FDBEB2000518FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED47D8D620FDBEB0000518FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED47D8D720FDBEB0000518FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED47D8DB20FDBEB2000518FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED47D8DC20FDBEB2000518FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED47D8F720FDBEB2000518FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED47D8F820FDBEB2000518FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED47D8FA20FDBEB2000518FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWWebViewHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWWebViewHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED47D8FB20FDBEB2000518FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWWebViewHandler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWWebViewHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED47D8FD20FDBEB2000518FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWWebViewHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWWebViewHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWWebViewHandler.app/ZWWebViewHandler";
+			};
+			name = Debug;
+		};
+		ED47D8FE20FDBEB2000518FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWWebViewHandlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWWebViewHandlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWWebViewHandler.app/ZWWebViewHandler";
+			};
+			name = Release;
+		};
+		ED47D90020FDBEB2000518FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWWebViewHandlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWWebViewHandlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWWebViewHandler;
+			};
+			name = Debug;
+		};
+		ED47D90120FDBEB2000518FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RDTZE3L65;
+				INFOPLIST_FILE = ZWWebViewHandlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZWWebViewHandlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWWebViewHandler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED47D8C820FDBEB0000518FB /* Build configuration list for PBXProject "ZWWebViewHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED47D8F720FDBEB2000518FB /* Debug */,
+				ED47D8F820FDBEB2000518FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED47D8F920FDBEB2000518FB /* Build configuration list for PBXNativeTarget "ZWWebViewHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED47D8FA20FDBEB2000518FB /* Debug */,
+				ED47D8FB20FDBEB2000518FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED47D8FC20FDBEB2000518FB /* Build configuration list for PBXNativeTarget "ZWWebViewHandlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED47D8FD20FDBEB2000518FB /* Debug */,
+				ED47D8FE20FDBEB2000518FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED47D8FF20FDBEB2000518FB /* Build configuration list for PBXNativeTarget "ZWWebViewHandlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED47D90020FDBEB2000518FB /* Debug */,
+				ED47D90120FDBEB2000518FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED47D8C520FDBEB0000518FB /* Project object */;
+}
