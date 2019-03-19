@@ -22,19 +22,19 @@ callNativeFunction:function(nativeMethodName,params,callBackID,callBack){
     
     
 },
-
+//调用
 callBack:function(callBackID,data){
     
     ZWBridgeEvent.fireEvent(callBackID,data);
     
 },
-
+//添加event
 callHandler:function(methodName,callBack){
     
     if(!ZWBridgeEvent._listeners[methodName]){
 
         ZWBridgeEvent.addEvent(methodName, function(data){
-
+                               //调用 callCack  
                                callBack(data,function(params){
 
                                         message = {'methodName':methodName,'params':params};
