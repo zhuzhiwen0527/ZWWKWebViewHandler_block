@@ -29,7 +29,7 @@ callBack:function(callBackID,data){
     
 },
 
-callHandler:function(methodName,callBack){
+registerHandler:function(methodName,callBack){
     
     if(!ZWBridgeEvent._listeners[methodName]){
 

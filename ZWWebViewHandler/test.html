@@ -34,12 +34,12 @@
 
     window.onload=function (){
 
-    ZWEventHandler.callHandler('firstCallHabler',function(data,callBack){
+    ZWEventHandler.registerHandler('firstCallHabler',function(data,callBack){
 
                                 alert(data);
                    
                                });
-    ZWEventHandler.callHandler('secondCallHandler',function(data,callBack){
+    ZWEventHandler.registerHandler('secondCallHandler',function(data,callBack){
 
                                                           alert(data);
                                                           callBack('oc 调用 html 异步回调')

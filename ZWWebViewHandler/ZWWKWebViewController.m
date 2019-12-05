@@ -116,7 +116,7 @@
 
 - (void)gofarward {
     
-    [self.handler callHandler:@"secondCallHandler" data:@"传参有回调" responseCallback:^(id responseData) {
+    [self.handler callHandler:@"secondCallHandler" data:@"好奇哦" responseCallback:^(id responseData) {
         NSLog(@"%@",responseData);
     }];
 //    if ([self.webView canGoForward]) {
